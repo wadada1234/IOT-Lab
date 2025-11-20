@@ -1,9 +1,8 @@
-<img width="698" height="389" alt="image" src="https://github.com/user-attachments/assets/a39a6243-00d2-4b7a-8827-e6e9dbc46db4" />
-<img width="568" height="411" alt="image" src="https://github.com/user-attachments/assets/37721f2a-92a5-4e11-a953-5d16b6049174" />
-<img width="556" height="408" alt="image" src="https://github.com/user-attachments/assets/07442541-ea3d-4639-a11c-c30b0272a17f" />
-<img width="905" height="633" alt="image" src="https://github.com/user-attachments/assets/175d8181-628d-4881-9a74-9f90da8c57af" />
-<img width="691" height="380" alt="image" src="https://github.com/user-attachments/assets/bcf456d5-06ae-403a-97ac-232521a0897d" />
-
+<img width="698" height="389" alt="Screenshot 2025-11-19 190350" src="https://github.com/user-attachments/assets/83bf945b-32f3-4f50-a263-b53a2b72eebd" />
+<img width="568" height="411" alt="Screenshot 2025-11-19 204554" src="https://github.com/user-attachments/assets/3ca02409-d6ba-4a97-a538-ac1fbe5f57e4" />
+<img width="556" height="408" alt="Screenshot 2025-11-19 204906" src="https://github.com/user-attachments/assets/b851b85e-a6a8-4ecc-b7ca-8500c8da4fd2" />
+<img width="691" height="380" alt="Screenshot 2025-11-19 205110" src="https://github.com/user-attachments/assets/419d614b-2206-476b-80c4-59c85449d52a" />
+<img width="905" height="633" alt="Screenshot 2025-11-19 204429" src="https://github.com/user-attachments/assets/4f21c1b5-7cac-46b2-aadf-9668c6941496" />
 
 # Internet of Things Lab:
 All the Programs of the 7th Sem Internet of Things (IoT) Lab with their output in different steps. This lab provides students with hands-on experience in implementing and understanding core IoT concepts. It focuses on practical exposure to essential IoT topics such as sensor interfacing, microcontroller programming, communication protocols, data acquisition, cloud integration, IoT architecture, and real-time monitoring, enabling students to design, connect, and deploy IoT-based applications effectively.
