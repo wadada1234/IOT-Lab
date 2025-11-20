@@ -1,0 +1,53 @@
+ OBJECTIVE
+ Describe gateway-as-a-service deployment in IoT toolkit.
+ THEORY
+ The Internet of Things (IoT) is set to occupy a substantial component of future Internet. The
+ IoT connects sensors and devices that record physical observations to applications and
+ services of the Internet. As a successor to technologies such as RFID and Wireless Sensor
+ Networks (WSN), the IoT has stumbled into vertical silos of proprietary systems, providing
+ little or no interoperability with similar systems. As the IoT represents future state of the
+ Internet, an intelligent and scalable architecture is required to provide connectivity between
+ these silos, enabling discovery of physical sensors and interpretation of messages between
+ things. This paper proposes a gateway and Semantic Web enabled IoT architecture to
+ provide interoperability between systems using established communication and data
+ standards. The Semantic Gateway as Service (SGS) allows translation between messaging
+ protocols such as XMPP, CoAP and MQTT via a multi-protocol proxy architecture.
+ Utilization of broadly accepted specifications such as W3C's Semantic Sensor Network
+ (SSN) ontology for semantic annotations of sensor data provide semantic interoperability
+ between messages and support semantic reasoning to obtain higher-level actionable
+ knowledge from low-level sensor data.
+ While developing IoT solutions we come across common tasks of connecting <things= to the
+ cloud. For devices that are not connected to the cloud directly, gateways are used. Such
+ gateway can be a system on chip (SoC) device: cable modem, set top box, home or industrial
+ automation gateway, smart phone, home entertainment system, laptop or PC. All these
+ gateway should have some sort of interface (BLE/ZigBee/etc radios, adapter, digital or
+ analog inputs) that can connect to the actual device: lamp, controller, sensor, appliance
+ Semantic Gateway as Service (SGS) The heart of the semantic IoT architecture is the SGS,
+ which bridges low level raw sensor information with knowledge centric application
+ services by facilitating interoperability at messaging protocol and data modeling level.
+ The description below is complemented by Open Source code available at
+ https://github.com/chheplo/node-sgs which is further being enhanced and evaluated in the
+ context of CityPulse, a large multi-institutional EU FP7 supported project along with an
+ effort for additional community engagement and development.
+ Semantic Gateway as Service (SGS)
+ The heart of the semantic IoT architecture is the SGS, which bridges low level raw sensor
+ information with knowledge centric application services by facilitating interoperability at
+ messaging protocol and data modelling level. The description below is complemented by
+ Open Source code available at https://github.com/chheplo/node-sgs which is further being
+ enhanced and evaluated in the context of City Pulse, a large multi-institutional EU FP7
+ supported project
+ along with an effort for additional community engagement and Gateway as a service architecture
+ The SGS has three core components as described in Figure:
+ (1) multi-protocol proxy,
+ (2) semantic annotation service,
+ (3) Gateway service interface.
+ Fig.
+ The SGS also has components for required capabilities such as message store and topics
+ router, which assist multi-protocol proxy and gateway service interface in translation between
+ messaging protocol. At a high level, SGS architecture connects external sink nodes to the
+ gateway component using primitive client agents, which support MQTT, XMPP or CoAP.
+ In contrast, the gateway service interface connects cloud services or other SGSs via REST or
+ pub sub protocol. Before raw sensor data is forwarded from proxy to gateway interface, it is
+ annotated using SSN and domain specific ontologies. Although the semantically annotated
+ data is in RDF format at the multi-protocol proxy, the gateway interface converts the data
+ into JSON, specifically linked data (JSON-LD) format to support RESTful protocols.
